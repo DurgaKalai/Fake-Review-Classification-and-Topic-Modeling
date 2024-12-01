@@ -38,3 +38,7 @@ Using a weighted average of predictions from multiple classifiers to increase cl
 
 8.Final evaluation:
  Measure performance using classification metrics such as accuracy, precision, recall, and F1 score.
+
+# Skills Takeaway from This Project:
+This project will enhance the  skills in Python for programming, Pandas for data manipulation, and Scikit-Learn for machine learning tasks like classification and clustering.Also helps to gain experience with TensorFlow for deep learning models (LSTM, BERT) and Transformers (Hugging Face) for text classification.
+
