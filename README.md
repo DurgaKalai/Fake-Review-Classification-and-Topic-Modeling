@@ -42,3 +42,47 @@ Using a weighted average of predictions from multiple classifiers to increase cl
 # Skills Takeaway from This Project:
 This project will enhance the  skills in Python for programming, Pandas for data manipulation, and Scikit-Learn for machine learning tasks like classification and clustering.Also helps to gain experience with TensorFlow for deep learning models (LSTM, BERT) and Transformers (Hugging Face) for text classification.
 
+# Results and Conclusions from ML-Models:
+ML-model Accuracy Report
+•	Support Vector Machines (SVM): 63.10%
+•	K-Nearest Neighbors (KNN): 63.10%
+•	Decision Tree Model: 73.81%
+•	Random Forest Model: 84.70%
+•	Multinomial Naive Bayes: 84.75%
+•	Logistic Regression: 86.55%
+Conclusion & Recommendations
+Best Performer: Logistic Regression achieved the highest accuracy, followed closely by Multinomial Naive Bayes and Random Forest. These models should be considered as the primary candidates for deployment.
+Underperforming Models: Support Vector Machines (SVM) and K-Nearest Neighbors (KNN) performed poorly with only 63.1% accuracy, suggesting that these models are not ideal for this dataset without further tuning or feature engineering.
+
+# Results and Conclusions from DL-Models:
+Performance of RNN
+
+![RNN report ](https://github.com/user-attachments/assets/bd7b5a86-c7dd-4e56-89d1-83f19eadc76a)
+
+ 
+Performance of LSTM
+
+![lstm report](https://github.com/user-attachments/assets/d74ce43d-c38c-4d1a-86b5-7bd8b05d18cb)
+
+ 
+Performance of BILSTM
+
+![BILStm report](https://github.com/user-attachments/assets/be03db1d-2280-4957-8549-4c3a047212d2)
+
+ 
+Conclusion:
+The BiLSTM model outperforms both LSTM and RNN, with the highest accuracy of 90% and balanced F1-scores
+
+# BERT (Bidirectional Encoder Representations from Transformers)model for sequence classification using the Transformers library by Hugging Face
+
+ ![bert ](https://github.com/user-attachments/assets/bab36d7b-f6d3-4e47-8f2f-b01b017217c3)
+
+ Summary & Insights:
+•	The model achieved excellent performance, with an overall accuracy of 93%.
+•	Precision, Recall, and F1-Score for both classes (CG and OR) are all around 0.93, indicating balanced and strong performance across both classes.
+•	The training loss decreased rapidly, showing that the model is converging well, though the validation loss slightly increased in the last epoch, which could suggest mild overfitting.
+This model is performing well on the classification task and generalizes well to unseen data based on the validation results.
+
+
+
+
