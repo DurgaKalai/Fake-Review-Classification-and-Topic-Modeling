@@ -5,7 +5,7 @@ The goal of this project is to develop a system that can classify reviews as eit
 Customer Trust: Detects fake reviews to protect customers from misleading info.
 Product Feedback Analysis: Groups similar reviews to highlight common issues or features.
 Content Moderation: Auto-filters fake or harmful reviews from product pages.
-# Step-by-Step Approach for the Project:
+# Step-by-Step Approach for the Project:-
 1.Data Collection:
 Collect a Fake Review Dataset that includes product reviews along with metadata such as ratings, helpful votes, and other relevant information.
 
